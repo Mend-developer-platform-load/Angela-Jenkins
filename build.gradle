@@ -1,0 +1,15 @@
+plugins {
+	id 'java'
+}
+
+version '1.0-Ece-Snapshot'
+
+sourceCompatibility = 1.8
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'io.netty:netty-codec-http:4.1.39.Final'
+}
